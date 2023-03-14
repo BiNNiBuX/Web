@@ -2,16 +2,41 @@ body{
     padding: 0px;
     margin: 0px;
     border: 0px;
+    display: block;
 }
 header{
-   height: 500px;
+    height: 500px;
     background-image: url('../images/Canyon.png');
-    display: flex;
-    justify-content: space-around;
     background-size: cover;
 }
-.HeaderNav{
+a, a:link, a:visited, a:focus, a:hover, a:active{
+    color: #FFFFFF;
+    text-decoration:none;
+  }
+.header_panel{
+    color: #FFFFFF;
+    width: 1440px;
+    height: 74px;
     display: flex;
-    align-items: center;
+    justify-content: space-around; 
+}
+.header_panel_title{
+    font-family: 'Lora', serif; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    padding-top: 20px;
+}
+.header_panel_nav{
+    width: 500px;
+    display: flex;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    padding-top: 27px;
     justify-content: space-around; 
 }
