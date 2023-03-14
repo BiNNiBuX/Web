@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(60, 60, 60);
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 3ex;
+}
+
+.main {
+    font-family: 'Rubik', sans-serif;
+    margin: 10px, auto;
+    padding: 30px;
+    max-width: none;
+    min-width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leftcol {
+   padding:50px;
+   min-width: 450px;
+   box-sizing: border-box;
+   width: 30%;
+}
+
+.rightcol {
+    padding:50px;
+    width: 40%;
+    min-width: 350px;
+    box-sizing: border-box;
+}
+
+img{width: 100%}
+
+.ccol{
+    width: 60%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+   .main {
+    background-color: black;
+   } 
+}
